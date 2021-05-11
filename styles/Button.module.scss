@@ -1,0 +1,17 @@
+.Button {
+  color: #333;
+
+  &-inner {
+    display: flex;
+  }
+
+  &-icon {
+    display: block;
+
+    &_color {
+      &_white {
+        background-color: #fff;
+      }
+    }
+  }
+}
